@@ -1,0 +1,9 @@
+# 기능 설명
+1. Android에서 뒤로가기 키를 1회 눌렀을 때, 안내 토스트 메세지 발생
+2. Android에서 뒤로가기 키를 2회 눌렀을 때, 앱이 종료 됨
+단, Android 외 기타 기기에서는 토스트 메세지가 발생하지 않으며, 2번 기능은 정상 동작 함.
+(Windows의 경우 ESC키 2회, iOS의 경우 뒤로가기 버튼 존재하지 않음)
+
+# 사용 방법
+1. Unity에서 Empty Object 생성.
+2. QuitScript.cs와 Toast.cs를 추가.
